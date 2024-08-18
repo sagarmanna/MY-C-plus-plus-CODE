@@ -21,8 +21,7 @@ int main(){
 */
 
 
-int num;
-cin>>num;
+
     for(int i =0;i<num;i++){
         for(int j=0;j<=i;j++){
             cout<<"* ";
@@ -34,5 +33,38 @@ cin>>num;
             cout<<"* ";
         }
         cout<<endl;
+
+    }
+
+
+
+    /*
+    
+      *
+     ***
+    *****
+   *******
+  *********
+ ***********
+    
+    
+    */
+
+// for space print 
+for(int i =0;i<6;i++){
+    for(int j=0;j<6-i;j++){
+        cout<<" ";
+    }
+    // for star print 
+for(int r=0;r<1+(2*i);r++){
+    cout<<"*";
+    
+}
+cout<<endl;
     }
 }
+
+
+
+
+
