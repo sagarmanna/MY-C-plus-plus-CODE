@@ -2,17 +2,9 @@
 using namespace std;
 
 
-void printName(){
-    int n;  
-    cout<<"Enter number : ";
-    cin>>n;
-for(int i =0;i<n;i++){
-    cout<<"SAGAR"<<endl;
-}
-}
 int main(){
-//function call 
-
-
-printName();
+int arr[5]={4,6,6,4,3};
+for(int i =0;i<5;i++){
+    cout<<arr[i]<<" ";
+}
 }
